@@ -1,0 +1,25 @@
+/* this is External */
+h1{
+    color: #03a091; font-size: 37px; text-align: center;
+}
+
+.nav{
+    color: rgb(245, 2, 2); text-decoration: underline; text-decoration:indianred; opacity: 50px;
+}
+
+p{
+    color: rgb(167, 5, 248); text-align: center; text-decoration: underline; font-size: larger;
+}
+
+.Region {
+
+    color: rgb(203, 29, 3); text-align: center; width: 10%; font-size: 200%;
+}
+
+/* This is internal */
+
+#Uttar .male {
+    color: red;
+}
+
+

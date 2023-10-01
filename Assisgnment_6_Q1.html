@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starting with CSS</title>
+
+    <style>
+        h1{
+            color: #03a091; font-size: 37px; text-align: center;
+        }
+
+        .nav{
+            color: rgb(245, 2, 2); text-decoration: underline; text-decoration:indianred;
+        }
+
+        p{
+            color: rgb(167, 5, 248); text-align: center; text-decoration: underline; font-size: larger;
+        }
+
+        .Region {
+
+            color: rgb(203, 29, 3); text-align: center; width: 10%; font-size: 200%;
+        }
+
+        /* This is internal */
+
+        #Uttar .male {
+            color: red;
+        }
+
+
+    </style>
+            <!-- This is how u summon a External -->
+        <link rel="stylesheet" href="Last_Leaf.css">
+
+</head>
+<body>
+    <Header>
+        <h1>
+            Starting With CSS
+        </h1>
+
+        <nav class="nav">
+            <ul id="Menu" >
+                <li><a href="http://">Home</a></li>
+                <li><a href="http://">About</a></li>
+                <li><a href="http://">Version</a></li>
+                <li><a href="http://">Contact</a></li>
+            </ul>
+        </nav>
+    </Header>
+
+
+    <article>
+        <section>
+            <h1>
+                HTML + CSS
+            </h1>
+    
+            <P>
+                This is the Section of HTML which targets on CSS.
+            </P>
+        </section>
+
+        <p>
+            This are those regions which are selected for the study
+        </p>
+
+        <nav>
+            <fieldset>
+                <legend class="Region">
+                    Regions
+                </legend>
+                <h2> Gujarat </h2>
+                <div id="Gujarat">
+                    <h4 class="female">Female</h4>
+                    <h4 class="male">Male</h4>
+                    <h4 class="female">Female</h4>
+                    <h4 class="male">Male</h4>
+                </div>
+        
+                <h2> Uttar Pradesh </h2>
+                <div id="Uttar">
+                    <div>
+                        <h4 class="female">Female</h4>
+                        <h4 class="male">Male</h4>
+                        <h4 class="female">Female</h4>
+                        <h4 class="male">Male</h4>
+                    </div>
+                    <h4 class="male">Male</h4>
+                </div>
+        
+                <h2> Arunachal Pradesh </h2>
+                <div id="Arunachal">
+                    <h4 class="female">Female</h4>
+                    <h4 class="male">Male</h4>
+                    <h4 class="female">Female</h4>
+                    <h4 class="male">Male</h4>
+                </div>
+        
+                <h2> Meghalaya </h2>
+                <div style="color: rgba(5, 158, 5, 0.812);" id="Meghalaya">  <!-- This is inline -->
+                    <h4 class="female">Female</h4>
+                    <h4 class="male">Male</h4>
+                    <h4 class="female">Female</h4>
+                    <h4 class="male">Male</h4>
+                </div>
+            </fieldset>
+        </nav>
+    </article>
+
+    <footer>
+        This is made by Tushar giri &copy; 
+    </footer>
+
+
+</body>
+</html>
